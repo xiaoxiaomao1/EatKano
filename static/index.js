@@ -441,11 +441,11 @@ const MODE_NORMAL = 1, MODE_ENDLESS = 2, MODE_PRACTICE = 3;
             SubmitResults();
         }
 
-        if (cps <= 5) return '试着好好练一下？';
-        if (cps <= 8) return 'TCL';
-        if (cps <= 10)  return 'TQL';
-        if (cps <= 15) return '您';
-        return '人？';
+        if (cps <= 5) return '就这？';
+        if (cps <= 8) return '有点强';
+        if (cps <= 10)  return '大佬厉害啊';
+        if (cps <= 15) return '我是废物';
+        return '卧槽？';
     }
 
     function toStr(obj) {
